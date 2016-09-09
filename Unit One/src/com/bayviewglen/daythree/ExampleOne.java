@@ -4,7 +4,7 @@ public class ExampleOne {
 
 	public static void main(String[] args) {
 		// There are things that can go in the quotes that cause issues
-		System.out.println("There is no issue!");
+		System.out.println("There is no issue...");
 		
 		// The following characters could cause an issue \, ",
 		// So we can escape them using the backslash
