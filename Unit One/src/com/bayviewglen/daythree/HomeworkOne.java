@@ -3,7 +3,11 @@ package com.bayviewglen.daythree;
 public class HomeworkOne {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
+		double radius, area;
+		radius=3;
+		area= 3.14 * radius * radius;
+		System.out.println("The circle with the radius of " + radius + " , has the area of " + area + ".");
 
 	}
 
