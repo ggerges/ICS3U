@@ -13,6 +13,6 @@ public class HomeworkThree {
 		
 		y = a* x*x + b*x + c;
 		
-		System.out.println("In the equation: y = " + a + "x^2 + " + b + "x + " + c + ", when x is = to " + x + ", y is = to " + y );
+		System.out.println("In the equation: y = " + a + "x^2 + " + b + "x + " + c + ", when x is = " + x + ", y is = to " + y );
 	}		
 }
