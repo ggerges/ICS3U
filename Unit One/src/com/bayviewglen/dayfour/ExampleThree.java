@@ -3,17 +3,27 @@ package com.bayviewglen.dayfour;
 public class ExampleThree {
 
 	public static void main(String[] args) {
-		System.out.println(3*6);	// 18
-		System.out.println(3+6);	// 9
-		System.out.println(3/6);	// 0 - both operands are integers
+
+		/***************** SYNTAX ERRORS ********************/
+		// Syntax Error is a compile error - those are the ones in red
+		// Those are the ones that have mistakes in the syntax of the code (you used incorrect Java grammer)
+		// The code does not make sense to the compiler
+		// Java no UNDERSTAND!
 		
-		System.out.println(3.0*6);	// 18.0
-		System.out.println(3+6.0);	// 9.0
-		System.out.println(3.0/6);	// 0.5 - one operand is a double so I get double division
+		// integer x = 7;		integer is not a valid identifier in Java - syntax error - should be int
 		
-		System.out.println(3%6);	// 3 - the remainder is 3
-		System.out.println(23%2);	// 1 - this is how we can find out if it is an even or an odd
-		System.out.println(458548%10);	// 8 mod it by 10 to get the last digit
+		/***************** LOGIC ERRORS ********************/
+		// Does Compile
+		// Does NOT crash the program (runtime error)
+		
+		// AreaOfCircle = 2*Math.PI*radius 	is a Logic error - because the equation is WRONG!
+		// This is a BUG
+		
+		/***************** RUNTIME ERRORS ********************/
+		// Crash during runtime
+		
+		int x = 3/0;
+		
 	}
 
 }
