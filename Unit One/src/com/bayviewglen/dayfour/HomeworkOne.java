@@ -3,8 +3,9 @@ package com.bayviewglen.dayfour;
 public class HomeworkOne {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		double num = 5;
+		double square= num*num;
+		System.out.println("The square root of " + num + " is " + square + ".");
 	}
 
 }
