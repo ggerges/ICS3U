@@ -10,7 +10,7 @@ public class HomeworkFive {
 		percentage = (won / total)* 100;
 		percentage = (int)(percentage * 1000);
 		percentage = (double)(percentage / 1000);
-		System.out.println("Out of " + (int) total + " games, The Yankees won " + (int)won + " games and lost " + (int)lost + " games. Their winning percentage is " + percentage + ".");
+		System.out.println("Out of " + (int) total + " games, The Yankees won " + (int)won + " games and lost " + (int)lost + " games. Their winning percentage is %" + percentage + ".");
 
 	}
 
