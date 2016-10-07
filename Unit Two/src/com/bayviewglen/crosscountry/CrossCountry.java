@@ -58,8 +58,9 @@ public class CrossCountry {
 		
 		//Runner Summary 
 		System.out.println("");
-		System.out.println("  	   Runner One Summary");
-		System.out.println(" 	  ------------------------");
+		System.out.println("  	Runner One Summary");
+		System.out.println("    ------------------------");
+		System.out.println("");
 		System.out.println("");
 		System.out.println("	Runner:" + name);
 		System.out.println("	Split One : " + minutes + ":" + formatter.format(seconds));
