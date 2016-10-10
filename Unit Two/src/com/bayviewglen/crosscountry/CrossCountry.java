@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class CrossCountry {
 
-	static final int sixty = 60;
+	static final int SIXTY = 60;
 
 	public static void main(String[] args) {
 
@@ -23,7 +23,7 @@ public class CrossCountry {
 		String time1 = scanner.nextLine(); // 1 = the first time for the first
 											// runner
 		int min1 = Integer.parseInt(time1.split(":")[0]); // min = minutes
-		int minSec1 = min1 * sixty; // minSec = Minutes turned to seconds
+		int minSec1 = min1 * SIXTY; // minSec = Minutes turned to seconds
 		double secs1 = Double.parseDouble(time1.split(":")[1]); // secs =
 																// seconds
 		double totalSecs1 = minSec1 + secs1; // gets total seconds
@@ -33,7 +33,7 @@ public class CrossCountry {
 		String time21 = scanner.nextLine(); // 21 = the seconds time for the
 											// first runner
 		int min21 = Integer.parseInt(time21.split(":")[0]);
-		int minSec21 = min21 * sixty;
+		int minSec21 = min21 * SIXTY;
 		double secs21 = Double.parseDouble(time21.split(":")[1]);
 		double totalSecs21 = minSec21 + secs21;
 
@@ -42,19 +42,19 @@ public class CrossCountry {
 		String time31 = scanner.nextLine(); // 31 = the third time for the first
 											// runner
 		int min31 = Integer.parseInt(time31.split(":")[0]);
-		int minSec31 = min31 * sixty;
+		int minSec31 = min31 * SIXTY;
 		double secs31 = Double.parseDouble(time31.split(":")[1]);
 		double totalSecs31 = minSec31 + secs31;
 
 		// SplitTwo
 		double splitTwoTS1 = (totalSecs21 - totalSecs1); // TS = total seconds
-		int splitTwoMin1 = (int) (splitTwoTS1) / sixty;
-		double splitTwoSecs1 = (splitTwoTS1) - splitTwoMin1 * sixty;
+		int splitTwoMin1 = (int) (splitTwoTS1) / SIXTY;
+		double splitTwoSecs1 = (splitTwoTS1) - splitTwoMin1 * SIXTY;
 
 		// SplitThree
 		double splitThreeTS1 = (totalSecs31 - totalSecs21);
-		int splitThreeMin1 = (int) (splitThreeTS1) / sixty;
-		double splitThreeSecs1 = (splitThreeTS1) - splitThreeMin1 * sixty;
+		int splitThreeMin1 = (int) (splitThreeTS1) / SIXTY;
+		double splitThreeSecs1 = (splitThreeTS1) - splitThreeMin1 * SIXTY;
 
 		// Runner Summary
 		System.out.println("");
@@ -83,7 +83,7 @@ public class CrossCountry {
 		String time2 = scanner.nextLine(); // 1 = the first time for the first
 											// runner
 		int min2 = Integer.parseInt(time2.split(":")[0]); // min = minutes
-		int minSec2 = min2 * sixty; // minSec = Minutes turned to seconds
+		int minSec2 = min2 * SIXTY; // minSec = Minutes turned to seconds
 		double secs2 = Double.parseDouble(time2.split(":")[1]); // secs =
 																// seconds
 		double totalSecs2 = minSec2 + secs2; // gets total seconds
@@ -93,7 +93,7 @@ public class CrossCountry {
 		String time22 = scanner.nextLine(); // 22 = the seconds time for the
 											// second runner
 		int min22 = Integer.parseInt(time22.split(":")[0]);
-		int minSec22 = min22 * sixty;
+		int minSec22 = min22 * SIXTY;
 		double secs22 = Double.parseDouble(time22.split(":")[1]);
 		double totalSecs22 = minSec22 + secs22;
 
@@ -102,19 +102,19 @@ public class CrossCountry {
 		String time32 = scanner.nextLine(); // 32 = the third time for the
 											// second runner
 		int min32 = Integer.parseInt(time32.split(":")[0]);
-		int minSec32 = min32 * sixty;
+		int minSec32 = min32 * SIXTY;
 		double secs32 = Double.parseDouble(time32.split(":")[1]);
 		double totalSecs32 = minSec32 + secs32;
 
 		// SplitTwo
 		double splitTwoTS2 = (totalSecs22 - totalSecs2); // TS = total seconds
-		int splitTwoMin2 = (int) (splitTwoTS2) / sixty;
-		double splitTwoSecs2 = (splitTwoTS2) - splitTwoMin2 * sixty;
+		int splitTwoMin2 = (int) (splitTwoTS2) / SIXTY;
+		double splitTwoSecs2 = (splitTwoTS2) - splitTwoMin2 * SIXTY;
 
 		// SplitThree
 		double splitThreeTS2 = (totalSecs32 - totalSecs22);
-		int splitThreeMin2 = (int) (splitThreeTS2) / sixty;
-		double splitThreeSecs2 = (splitThreeTS2) - splitThreeMin2 * sixty;
+		int splitThreeMin2 = (int) (splitThreeTS2) / SIXTY;
+		double splitThreeSecs2 = (splitThreeTS2) - splitThreeMin2 * SIXTY;
 
 		// Runner Summary
 		System.out.println("");
@@ -142,7 +142,7 @@ public class CrossCountry {
 		String time3 = scanner.nextLine(); // 3 = the first time for the third
 											// runner
 		int min3 = Integer.parseInt(time3.split(":")[0]); // min = minutes
-		int minSec3 = min3 * sixty; // minSec = Minutes turned to seconds
+		int minSec3 = min3 * SIXTY; // minSec = Minutes turned to seconds
 		double secs3 = Double.parseDouble(time3.split(":")[1]); // secs =
 																// seconds
 		double totalSecs3 = minSec3 + secs3; // gets total seconds
@@ -153,7 +153,7 @@ public class CrossCountry {
 											// third Runner
 											// third runner
 		int min23 = Integer.parseInt(time23.split(":")[0]);
-		int minSec23 = min23 * sixty;
+		int minSec23 = min23 * SIXTY;
 		double secs23 = Double.parseDouble(time23.split(":")[1]);
 		double totalSecs23 = minSec23 + secs23;
 
@@ -162,19 +162,19 @@ public class CrossCountry {
 		String time33 = scanner.nextLine(); // 33 = the third time for the third
 											// runner
 		int min33 = Integer.parseInt(time33.split(":")[0]);
-		int minSec33 = min33 * sixty;
+		int minSec33 = min33 * SIXTY;
 		double secs33 = Double.parseDouble(time33.split(":")[1]);
 		double totalSecs33 = minSec33 + secs33;
 
 		// SplitTwo
 		double splitTwoTS3 = (totalSecs23 - totalSecs3); // TS = total seconds
-		int splitTwoMin3 = (int) (splitTwoTS3) / sixty;
-		double splitTwoSecs3 = (splitTwoTS3) - splitTwoMin3 * sixty;
+		int splitTwoMin3 = (int) (splitTwoTS3) / SIXTY;
+		double splitTwoSecs3 = (splitTwoTS3) - splitTwoMin3 * SIXTY;
 
 		// SplitThree
 		double splitThreeTS3 = (totalSecs33 - totalSecs23);
-		int splitThreeMin3 = (int) (splitThreeTS3) / sixty;
-		double splitThreeSecs3 = (splitThreeTS3) - splitThreeMin3 * sixty;
+		int splitThreeMin3 = (int) (splitThreeTS3) / SIXTY;
+		double splitThreeSecs3 = (splitThreeTS3) - splitThreeMin3 * SIXTY;
 
 		// Runner Summary
 		System.out.println("");
@@ -202,7 +202,7 @@ public class CrossCountry {
 		String time4 = scanner.nextLine(); // 4 = the first time for the fourth
 											// runner
 		int min4 = Integer.parseInt(time4.split(":")[0]); // min = minutes
-		int minSec4 = min4 * sixty; // minSec = Minutes turned to seconds
+		int minSec4 = min4 * SIXTY; // minSec = Minutes turned to seconds
 		double secs4 = Double.parseDouble(time4.split(":")[1]); // secs =
 																// seconds
 		double totalSecs4 = minSec4 + secs4; // gets total seconds
@@ -212,7 +212,7 @@ public class CrossCountry {
 		String time24 = scanner.nextLine(); // 24 = the second time for the
 											// fourth Runner
 		int min24 = Integer.parseInt(time24.split(":")[0]);
-		int minSec24 = min24 * sixty;
+		int minSec24 = min24 * SIXTY;
 		double secs24 = Double.parseDouble(time24.split(":")[1]);
 		double totalSecs24 = minSec24 + secs24;
 
@@ -222,19 +222,19 @@ public class CrossCountry {
 											// fourth
 											// runner
 		int min34 = Integer.parseInt(time34.split(":")[0]);
-		int minSec34 = min34 * sixty;
+		int minSec34 = min34 * SIXTY;
 		double secs34 = Double.parseDouble(time34.split(":")[1]);
 		double totalSecs34 = minSec34 + secs34;
 
 		// SplitTwo
 		double splitTwoTS4 = (totalSecs24 - totalSecs4); // TS = total seconds
-		int splitTwoMin4 = (int) (splitTwoTS4) / sixty;
-		double splitTwoSecs4 = (splitTwoTS4) - splitTwoMin4 * sixty;
+		int splitTwoMin4 = (int) (splitTwoTS4) / SIXTY;
+		double splitTwoSecs4 = (splitTwoTS4) - splitTwoMin4 * SIXTY;
 
 		// SplitThree
 		double splitThreeTS4 = (totalSecs34 - totalSecs24);
-		int splitThreeMin4 = (int) (splitThreeTS4) / sixty;
-		double splitThreeSecs4 = (splitThreeTS4) - splitThreeMin4 * sixty;
+		int splitThreeMin4 = (int) (splitThreeTS4) / SIXTY;
+		double splitThreeSecs4 = (splitThreeTS4) - splitThreeMin4 * SIXTY;
 
 		// Runner Summary
 		System.out.println("");
@@ -263,7 +263,7 @@ public class CrossCountry {
 		String time5 = scanner.nextLine(); // 5 = the first time for the fifth
 											// runner
 		int min5 = Integer.parseInt(time5.split(":")[0]); // min = minutes
-		int minSec5 = min5 * sixty; // minSec = Minutes turned to seconds
+		int minSec5 = min5 * SIXTY; // minSec = Minutes turned to seconds
 		double secs5 = Double.parseDouble(time5.split(":")[1]); // secs =
 																// seconds
 		double totalSecs5 = minSec5 + secs5; // gets total seconds
@@ -274,7 +274,7 @@ public class CrossCountry {
 											// fifith Runner
 
 		int min25 = Integer.parseInt(time25.split(":")[0]);
-		int minSec25 = min25 * sixty;
+		int minSec25 = min25 * SIXTY;
 		double secs25 = Double.parseDouble(time25.split(":")[1]);
 		double totalSecs25 = minSec25 + secs25;
 
@@ -283,19 +283,19 @@ public class CrossCountry {
 		String time35 = scanner.nextLine(); // 35 = the third time for the fifth
 											// runner
 		int min35 = Integer.parseInt(time35.split(":")[0]);
-		int minSec35 = min35 * sixty;
+		int minSec35 = min35 * SIXTY;
 		double secs35 = Double.parseDouble(time35.split(":")[1]);
 		double totalSecs35 = minSec35 + secs35;
 
 		// SplitTwo
 		double splitTwoTS5 = (totalSecs25 - totalSecs5); // TS = total seconds
-		int splitTwoMin5 = (int) (splitTwoTS5) / sixty;
-		double splitTwoSecs5 = (splitTwoTS5) - splitTwoMin5 * sixty;
+		int splitTwoMin5 = (int) (splitTwoTS5) / SIXTY;
+		double splitTwoSecs5 = (splitTwoTS5) - splitTwoMin5 * SIXTY;
 
 		// SplitThree
 		double splitThreeTS5 = (totalSecs35 - totalSecs25);
-		int splitThreeMin5 = (int) (splitThreeTS5) / sixty;
-		double splitThreeSecs5 = (splitThreeTS5) - splitThreeMin5 * sixty;
+		int splitThreeMin5 = (int) (splitThreeTS5) / SIXTY;
+		double splitThreeSecs5 = (splitThreeTS5) - splitThreeMin5 * SIXTY;
 
 		// Runner Summary
 		System.out.println("");
