@@ -11,7 +11,10 @@ public class CrossCountry {
 
 		Scanner scanner = new Scanner(System.in);
 		DecimalFormat formatter = new DecimalFormat("00.000");
-
+		
+		
+		System.out.println("Bayview Glen Cross-Country Split Calculator");
+		System.out.println(" ");
 		// First and Last Name
 		System.out.print("Please enter your First and Last name : ");
 		String n1 = scanner.nextLine(); // = n is name
