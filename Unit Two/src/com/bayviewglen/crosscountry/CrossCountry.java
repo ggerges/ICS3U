@@ -340,20 +340,13 @@ public class CrossCountry {
 		System.out.println("");
 		System.out.println("*********************************************************************************");
 		System.out.println("");
-		System.out.printf("%34s ", "Runners Summary");
-		System.out.println(" ");
-		System.out.println("");
-		System.out.printf("Runners %10s %10s %10s %8s", "Split 1", "Split 2", "Split 3", "Total");
-		System.out.println("");
-		System.out.printf("Runner 1 %10s %10s %10s %10s", split11, split21, split31, total1);
-		System.out.println("");
-		System.out.printf("Runner 2 %10s %10s %10s %10s", split12, split22, split32, total2);
-		System.out.println("");
-		System.out.printf("Runner 3 %10s %10s %10s %10s", split13, split23, split33, total3);
-		System.out.println("");
-		System.out.printf("Runner 4 %10s %10s %10s %10s", split14, split24, split34, total4);
-		System.out.println("");
-		System.out.printf("Runner 5 %10s %10s %10s %10s", split15, split25, split35, total5);
+		System.out.printf("%40s %n %n", "Runners Summary");
+		System.out.printf("%-20s %s %10s %10s %8s %n", "Runner Name", "Split 1", "Split 2", "Split 3", "Total");
+		System.out.printf("%-20s %s %10s %10s %10s %n", n1,split11, split21, split31, total1);
+		System.out.printf("%-20s %s %10s %10s %10s %n", n2,split12, split22, split32, total2);
+		System.out.printf("%-20s %s %10s %10s %10s %n", n3,split13, split23, split33, total3);
+		System.out.printf("%-20s %s %10s %10s %10s %n", n4,split14, split24, split34, total4);
+		System.out.printf("%-20s %s %10s %10s %10s", n5,split15, split25, split35, total5);
 
 		scanner.close();
 	}
