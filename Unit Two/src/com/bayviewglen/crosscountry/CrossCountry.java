@@ -11,8 +11,7 @@ public class CrossCountry {
 
 		Scanner scanner = new Scanner(System.in);
 		DecimalFormat formatter = new DecimalFormat("00.000");
-		
-		
+
 		System.out.println("Bayview Glen Cross-Country Split Calculator");
 		System.out.println(" ");
 		// First and Last Name
@@ -336,17 +335,17 @@ public class CrossCountry {
 		String split25 = splitTwoMin5 + ":" + formatter.format(splitTwoSecs5);
 		String split35 = splitThreeMin5 + ":" + formatter.format(splitThreeSecs5);
 		String total5 = min35 + ":" + formatter.format(secs35);
-		
+
 		System.out.println("");
 		System.out.println("*********************************************************************************");
 		System.out.println("");
 		System.out.printf("%40s %n %n", "Runners Summary");
 		System.out.printf("%-20s %s %10s %10s %8s %n", "Runner Name", "Split 1", "Split 2", "Split 3", "Total");
-		System.out.printf("%-20s %s %10s %10s %10s %n", n1,split11, split21, split31, total1);
-		System.out.printf("%-20s %s %10s %10s %10s %n", n2,split12, split22, split32, total2);
-		System.out.printf("%-20s %s %10s %10s %10s %n", n3,split13, split23, split33, total3);
-		System.out.printf("%-20s %s %10s %10s %10s %n", n4,split14, split24, split34, total4);
-		System.out.printf("%-20s %s %10s %10s %10s", n5,split15, split25, split35, total5);
+		System.out.printf("%-20s %s %10s %10s %10s %n", n1, split11, split21, split31, total1);
+		System.out.printf("%-20s %s %10s %10s %10s %n", n2, split12, split22, split32, total2);
+		System.out.printf("%-20s %s %10s %10s %10s %n", n3, split13, split23, split33, total3);
+		System.out.printf("%-20s %s %10s %10s %10s %n", n4, split14, split24, split34, total4);
+		System.out.printf("%-20s %s %10s %10s %10s", n5, split15, split25, split35, total5);
 
 		scanner.close();
 	}
