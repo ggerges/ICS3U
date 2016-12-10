@@ -9,7 +9,7 @@ public class HangManFinalFinal {
         Scanner keyboard = new Scanner(System.in);
 
         // declared ints
-        int round = 4;
+        int round = 0;
         int roundLimit = 5; //normal game
         int player1 = 0;
         int player2 = 0;
