@@ -1,8 +1,30 @@
 
 public class Test {
 
+	
 	public static void main(String[] args) {
 
+		
+		int[] nums = {3, 1, 3, 1, 3};
+		int count = 0;
+	    int pos = -2; // in case nums[0] == 3
+	 
+	    for (int i = 0; i < nums.length; i++) {
+	        if (nums[i] == 3) {
+	            count++;
+	            if (i - pos == 1)System.out.print(false);
+	            pos = i;
+	        }
+	    }
+	 
+	    System.out.print(count == 3); 
+}
+	/*
+	for(int i =5; i<=32; i+= 5){
+		
+			System.out.println(i);
+			*/
+		/*
 int num = 0;
 
 for (int i = 0; i <=100 ; i++){
@@ -51,6 +73,7 @@ for(int i = 0; i <= str.length()-1;i++){
 }
 
 */
+	}
 
 
 

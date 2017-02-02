@@ -299,7 +299,7 @@ public class HangManFinalFinal {
         }
         System.out.println("\n \n \n Game Over! The Winner is " + Winner + " with " + player1 + " points.");
         System.out.println("Please type anything to close the game");
-        close = keyboard.nextLine();
+       close = keyboard.nextLine();
 
 
     }
